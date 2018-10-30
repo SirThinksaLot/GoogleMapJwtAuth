@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+	<head>
+	</head>
+
+	<body>
+			<% data['predictions'].forEach(function(i){%>
+							<div id="omegalul">
+								<a href = '/maps/<%=i.place_id%>'>-<%=i.description%></a>
+							</div>
+			<%})%>
+	</body>
+</html>
